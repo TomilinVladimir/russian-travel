@@ -1,0 +1,40 @@
+.lead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 984px;
+  padding: 0 148px 92px;
+  margin: 0 auto;
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  color: #fff;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+@media (max-width: 1279px) {
+  .lead {
+    max-width: 928px;
+    padding: 0 48px 92px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .lead {
+    max-width: 100%;
+    padding: 0 0 88px;
+  }
+}
+
+@media (max-width: 767px) {
+  .lead {
+    max-width: 928px;
+    padding: 0 0 64px;
+  }
+}
