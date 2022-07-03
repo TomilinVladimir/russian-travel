@@ -16,7 +16,6 @@
 
 @media (max-width: 1023px) {
   .places {
-    max-width: 100%;
     padding-left: 24px;
     padding-right: 24px;
     padding-top: 88px;
@@ -25,7 +24,6 @@
 
 @media (max-width: 767px) {
   .places {
-    max-width: 100%;
     padding-top: 64px;
     padding: 64px 0 66px;
   }
